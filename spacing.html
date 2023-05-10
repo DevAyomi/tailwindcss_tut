@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Learning tailwind css spacing</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      body {
+        padding: 5rem;
+      }
+    </style>
+  </head>
+  <body>
+    <h3>1. Margin</h3>
+    <div class="m-4 bg-yellow-100">Margin all around</div>
+    <div class="mx-4 bg-yellow-200">Margin from x axis</div>
+    <div class="my-4 bg-yellow-300">Margin from y axis</div>
+    <div class="mt-6 bg-yellow-400">Margin top</div>
+    <div class="mb-6 bg-yellow-500">Margin bottom</div>
+    <div class="mr-8 bg-yellow-600">Margin right</div>
+    <div class="ml-8 bg-yellow-700">Margin left</div>
+
+    <br />
+    <hr />
+    <br />
+
+    <!--Space between x-->
+    <h3>2. Space between x</h3>
+    <div class="flex space-x-4">
+      <div class="p-3 bg-teal-100">01</div>
+      <div class="p-3 bg-teal-200">02</div>
+      <div class="p-3 bg-teal-300">03</div>
+    </div>
+
+    <br />
+    <hr />
+    <br />
+
+    <!--Space between Y-->
+    <h3>2. Space between Y</h3>
+    <div class="flex flex-col space-y-4">
+      <div class="p-3 bg-teal-100">01</div>
+      <div class="p-3 bg-teal-200">02</div>
+      <div class="p-3 bg-teal-300">03</div>
+    </div>
+  </body>
+</html>
